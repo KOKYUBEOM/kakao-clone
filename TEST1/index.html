@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <style>
+    body,
+    html {
+      height: 1500px;
+      margin: 0%;
+      background-color: blue;
+    }
+    #boxONE {
+      background-color: red;
+      height: 100px;
+      width: 100%;
+      position: fixed;
+    }
+    #boxTWO {
+      background-color: skyblue;
+      width: 70%;
+      height: 100%;
+      padding-top: 100px;
+    }
+
+    .abs-box {
+      width: 30%;
+      height: 1400px;
+      background-color: yellow;
+      position: relative;
+      border: 5px solid gray;
+      margin-top: 100px;
+      left: 70%;
+    }
+    .abs-child {
+      width: 100px;
+      height: 50px;
+      background-color: green;
+      position: absolute;
+      top: -30px;
+      left: -50px;
+    }
+  </style>
+  <body>
+    <body>
+      <div id="boxONE">
+        <div class="abs-box">
+          <div class="abs-child"></div>
+        </div>
+      </div>
+      <div id="boxTWO">
+        <h1>This is the day one</h1>
+      </div>
+    </body>
+  </body>
+</html>
